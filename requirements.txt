@@ -1,0 +1,15 @@
+# faixas testadas (v13): limites superiores evitam que uma versão nova quebre o app sem aviso
+streamlit>=1.52,<2
+pandas>=2.2,<3.1
+numpy>=1.26,<2.5
+openpyxl>=3.1,<4
+xlrd>=2.0,<3
+matplotlib>=3.8,<3.11
+scipy>=1.11,<1.18
+shapely>=2.0,<2.2
+pyproj>=3.6,<3.8
+pyshp>=2.3,<3.2
+requests>=2.31,<3
+pillow>=10,<13
+rasterio>=1.3,<1.5
+h5py>=3.9,<4            # leitura do produto NISAR (HDF5)
